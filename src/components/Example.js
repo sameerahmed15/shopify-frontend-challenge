@@ -7,11 +7,7 @@ import { Form, Button, Card, Container } from 'react-bootstrap'
 
 import ResultCard from './ResultCard'
 
-import { Name } from "./Header";
-
 const API_KEY = process.env.REACT_APP_API_KEY;
-
-console.log(API_KEY)
 
 const { Configuration, OpenAIApi } = require("openai");
 
