@@ -70,7 +70,7 @@ class Header extends Component {
                                 </Form.Text>
                             </Form.Group>
                             <Button className= "mt-3" variant="primary" type="submit">
-                                Get AI Suggestions
+                                Get Sameer's Description
                             </Button>
                         </Form>
                     </div>
