@@ -37,7 +37,7 @@ class Header extends Component {
         });
         const openai = new OpenAIApi(configuration);
 
-        const response = openai.createCompletion("text-curie-001", {
+        const response = openai.createCompletion("text-davinci-002", {
             prompt: `Write a very cute description about my bestfriend Myra' s${formDataObj.productName}`,
             temperature: 0.7,
             max_tokens: 256,
